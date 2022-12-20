@@ -1,0 +1,210 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "lang": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "lang"
+              ]
+            }
+          ]
+        },
+        "preferred-format": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "file-ext": {
+                  "type": "string"
+                },
+                "dissemination": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "preservation": {
+                  "type": "string"
+                },
+                "info": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "lang": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "lang"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "lang": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "lang"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "file-ext",
+                "dissemination",
+                "preservation",
+                "info"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "file-ext": {
+                  "type": "string"
+                },
+                "dissemination": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "preservation": {
+                  "type": "string"
+                },
+                "info": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "lang": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "lang"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "lang": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "lang"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "file-ext",
+                "dissemination",
+                "preservation",
+                "info"
+              ]
+            }
+          ]
+        },
+        "non-preferred-format": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "file-ext": {
+                  "type": "string"
+                },
+                "pre-ingest": {
+                  "type": "string"
+                },
+                "dissemination": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "preservation": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "file-ext",
+                "pre-ingest",
+                "dissemination",
+                "preservation",
+                "info"
+              ]
+            }
+           ]
+        }
+      },
+      "required": [
+        "type",
+        "preferred-format",
+        "non-preferred-format"
+      ]
+    }
+  ]
+}
