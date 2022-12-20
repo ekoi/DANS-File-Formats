@@ -94,6 +94,23 @@
                         "lang": "en"
                     }
                 ]
+            },
+            {
+                "name": "3GP",
+                "file-ext": "3gp",
+                "pre-ingest": "BWF",
+                "dissemination": ["3GP", "BWF"],
+                "preservation": "BWF",
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/3gp",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/3gp",
+                        "lang": "en"
+                    }
+                ]
             }
         ]
     },
