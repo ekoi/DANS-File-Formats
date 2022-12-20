@@ -1,4 +1,102 @@
-[
+[  
+    {
+        "type": [
+            {
+                "title": "Audio",
+                "lang": "nl"
+            },
+            {
+                "title": "Audio",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "BWF",
+                "file-ext": "bwf",
+                "dissemination": ["BMF"],
+                "preservation": "BMF",
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/bwf/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/bwf/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "MXF",
+                "file-ext": "mxf",
+                "dissemination": ["MXF"],
+                "preservation": "MXF",
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/mxf/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/mxf/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "Matroska",
+                "file-ext": "mka",
+                "dissemination": ["Matroska"],
+                "preservation": "Matroska",
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/matroska/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/matroska/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": [
+            {
+                "name": "M4A",
+                "file-ext": "m4a",
+                "pre-ingest": "",
+                "dissemination": ["M4A", "Matroska"],
+                "preservation": "Matroska",
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/m4a",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/m4a",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "WAVE",
+                "file-ext": "wav",
+                "pre-ingest": "",
+                "dissemination": ["WAVE", "BWF"],
+                "preservation": "BWF",
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/wave",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/wav",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
+    },
     {
         "type": [
             {
@@ -14,6 +112,8 @@
             {
                 "name": "PDF/A",
                 "file-ext": "pdf",
+                "dissemination": ["PDF/A"],
+                "preservation": "PDF/A",
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/pdf-a/",
@@ -28,6 +128,8 @@
             {
                 "name": "ODT",
                 "file-ext": "odt",
+                "dissemination": ["ODT"],
+                "preservation": "ODT",
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/opendocument-text-odt/",
@@ -44,6 +146,8 @@
             {
                 "name": "Microsoft Word",
                 "file-ext": "doc",
+                "dissemination": ["?"],
+                "preservation": "?",
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/microsoft-word-doc-en-office-open-xml-docx/",
@@ -58,6 +162,8 @@
             {
                 "name": "Office Open XML",
                 "file-ext": "docx",
+                "dissemination": ["?"],
+                "preservation": "?",
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/microsoft-word-doc-en-office-open-xml-docx/",
@@ -72,6 +178,8 @@
             {
                 "name": "Rich Text File",
                 "file-ext": "rtf",
+                "dissemination": ["?"],
+                "preservation": "?",
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/rich-text-file-rtf/",
@@ -85,7 +193,9 @@
             },
             {
                 "name": "PDF other than PDF/A ",
-                "file-ext": "",
+                "file-ext": "pdf",
+                "dissemination": ["?"],
+                "preservation": "?",
                 "info": [
                     {
                         "url": "",
@@ -96,48 +206,6 @@
                         "lang": "en"
                     }
                 ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
             }
         ]
     },
@@ -154,295 +222,55 @@
         ],
         "preferred-format": [
             {
-                "name": "Unicode",
+                "name": "Unicode text",
                 "file-ext": "txt",
+                "dissemination": ["Unicode text"],
+                "preservation": "Unicode text",
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/platte-tekst/unicode/",
                         "lang": "nl"
                     },
                     {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
+                        "url": "https://dans.knaw.nl/en/file-formats/plain-text/unicode/",
                         "lang": "en"
                     }
                 ]
             }
+            
         ],
         "non-preferred-format": [
             {
-                "name": "",
-                "file-ext": "",
-                "info": ""
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": ""
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "type": [
-            {
-                "title": "Platte tekst",
-                "lang": "nl"
-            },
-            {
-                "title": "Plain text",
-                "lang": "en"
-            }
-        ],
-        "preferred-format": [
-            {
-                "name": "Unicode",
+                "name": "Non-Unicode text",
                 "file-ext": "txt",
+                "dissemination": ["?"],
+                "preservation": "?",
                 "info": [
                     {
-                        "url": "https://dans.knaw.nl/bestandsformaten/platte-tekst/unicode/",
+                        "url": "https://dans.knaw.nl/bestandsformaten/platte-tekst/non-unicode/",
                         "lang": "nl"
                     },
                     {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            }
-        ],
-        "non-preferred-format": [
-            {
-                "name": "",
-                "file-ext": "",
-                "info": ""
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": ""
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
+                        "url": "https://dans.knaw.nl/en/file-formats/plain-text/non-unicode/",
                         "lang": "en"
                     }
                 ]
             }
         ]
     },
+    
     {
         "type": [
             {
-                "title": "Platte tekst",
+                "title": "",
                 "lang": "nl"
             },
             {
-                "title": "Plain text",
+                "title": "",
                 "lang": "en"
             }
         ],
         "preferred-format": [
-            {
-                "name": "Unicode",
-                "file-ext": "txt",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/platte-tekst/unicode/",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
             {
                 "name": "",
                 "file-ext": "",
@@ -462,86 +290,6 @@
             {
                 "name": "",
                 "file-ext": "",
-                "info": ""
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": ""
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
                 "info": [
                     {
                         "url": "",
@@ -553,158 +301,6 @@
                     }
                 ]
             }
-        ]
-    },
-    {
-        "type": [
-            {
-                "title": "Audio",
-                "lang": "nl"
-            },
-            {
-                "title": "Audio",
-                "lang": "en"
-            }
-        ],
-        "preferred-format": [
-            {
-                "name": "BWF",
-                "file-ext": "bwf",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/bwf/",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/bwf/",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "MXF",
-                "file-ext": "mxf",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/mxf/",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/mxf/",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "Matroska",
-                "file-ext": "mka",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/matroska/",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/matroska/",
-                        "lang": "en"
-                    }
-                ]
-            }
-        ],
-        "non-preferred-format": [
-            {
-                "name": "",
-                "file-ext": "",
-                "info": ""
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": ""
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "",
-                "file-ext": "",
-                "info": [
-                    {
-                        "url": "",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "",
-                        "lang": "en"
-                    }
-                ]
-            }
-        ]
+         ]
     }
 ]
