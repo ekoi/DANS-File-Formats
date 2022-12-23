@@ -2,135 +2,24 @@
     {
         "type": [
             {
-                "title": "Audio",
-                "lang": "nl"
-            },
-            {
-                "title": "Audio",
-                "lang": "en"
-            }
-        ],
-        "preferred-format": [
-            {
-                "name": "BWF",
-                "file-ext": "bwf",
-                "dissemination": ["BMF"],
-                "preservation": "BMF",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/bwf/",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/bwf/",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "MXF",
-                "file-ext": "mxf",
-                "dissemination": ["MXF"],
-                "preservation": "MXF",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/mxf/",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/mxf/",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "Matroska",
-                "file-ext": "mka",
-                "dissemination": ["Matroska"],
-                "preservation": "Matroska",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/matroska/",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/matroska/",
-                        "lang": "en"
-                    }
-                ]
-            }
-        ],
-        "non-preferred-format": [
-            {
-                "name": "M4A",
-                "file-ext": "m4a",
-                "pre-ingest": "",
-                "dissemination": ["M4A", "Matroska"],
-                "preservation": "Matroska",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/m4a",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/m4a",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "WAVE",
-                "file-ext": "wav",
-                "pre-ingest": "",
-                "dissemination": ["WAVE", "BWF"],
-                "preservation": "BWF",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/wave",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/wav",
-                        "lang": "en"
-                    }
-                ]
-            },
-            {
-                "name": "3GP",
-                "file-ext": "3gp",
-                "pre-ingest": "BWF",
-                "dissemination": ["3GP", "BWF"],
-                "preservation": "BWF",
-                "info": [
-                    {
-                        "url": "https://dans.knaw.nl/bestandsformaten/audio/3gp",
-                        "lang": "nl"
-                    },
-                    {
-                        "url": "https://dans.knaw.nl/en/file-formats/audio/3gp",
-                        "lang": "en"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "type": [
-            {
                 "title": "Tekstdocumenten",
                 "lang": "nl"
             },
             {
-                "title": "Text document",
+                "title": "Text documents",
                 "lang": "en"
             }
         ],
         "preferred-format": [
             {
                 "name": "PDF/A",
-                "file-ext": "pdf",
-                "dissemination": ["PDF/A"],
-                "preservation": "PDF/A",
+                "file-ext": [
+                    {
+                        "name": "pdf",
+                        "dissemination": ["pdf"],
+                        "preservation": "pdf"
+                    }
+                ],
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/pdf-a/",
@@ -144,9 +33,13 @@
             },
             {
                 "name": "ODT",
-                "file-ext": "odt",
-                "dissemination": ["ODT"],
-                "preservation": "ODT",
+                "file-ext": [
+                    {
+                        "name": "odt",
+                        "dissemination": ["odt"],
+                        "preservation": "odt"
+                    }
+                ],
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/opendocument-text-odt/",
@@ -162,64 +55,80 @@
         "non-preferred-format": [
             {
                 "name": "Microsoft Word",
-                "file-ext": "doc",
-                "dissemination": ["?"],
-                "preservation": "?",
+                "file-ext": [
+                    {
+                        "name": "doc",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/microsoft-word-doc-en-office-open-xml-docx/",
                         "lang": "nl"
                     },
                     {
-                        "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/microsoft-word-doc-en-office-open-xml-docx/",
+                        "url": "https://dans.knaw.nl/en/file-formats/text-documents/microsoft-word-and-office-open-xml/",
                         "lang": "en"
                     }
                 ]
             },
             {
                 "name": "Office Open XML",
-                "file-ext": "docx",
-                "dissemination": ["?"],
-                "preservation": "?",
+                "file-ext": [
+                    {
+                        "name": "docx",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
                 "info": [
                     {
-                        "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/microsoft-word-doc-en-office-open-xml-docx/",
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/tekstdocumenten/microsoft-word-doc-en-office-open-xml-docx/",
                         "lang": "nl"
                     },
                     {
-                        "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/microsoft-word-doc-en-office-open-xml-docx/",
+                        "url": "https://dans.knaw.nl/en/file-formats/text-documents/microsoft-word-and-office-open-xml/",
                         "lang": "en"
                     }
                 ]
             },
             {
                 "name": "Rich Text File",
-                "file-ext": "rtf",
-                "dissemination": ["?"],
-                "preservation": "?",
+                "file-ext": [
+                    {
+                        "name": "rtf",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/rich-text-file-rtf/",
                         "lang": "nl"
                     },
                     {
-                        "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/rich-text-file-rtf/",
+                        "url": "https://dans.knaw.nl/en/file-formats/text-documents/rich-text-file-rtf/",
                         "lang": "en"
                     }
                 ]
             },
             {
                 "name": "PDF other than PDF/A ",
-                "file-ext": "pdf",
-                "dissemination": ["?"],
-                "preservation": "?",
+                "file-ext": [
+                    {
+                        "name": "pdf",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
                 "info": [
                     {
-                        "url": "",
+                        "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/pdf-pdf/",
                         "lang": "nl"
                     },
                     {
-                        "url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/pdf-pdf/",
+                        "url": "https://dans.knaw.nl/en/file-formats/text-documents/pdf-pdf/",
                         "lang": "en"
                     }
                 ]
@@ -240,9 +149,13 @@
         "preferred-format": [
             {
                 "name": "Unicode text",
-                "file-ext": "txt",
-                "dissemination": ["Unicode text"],
-                "preservation": "Unicode text",
+                "file-ext": [
+                    {
+                        "name": "txt",
+                        "dissemination": ["txt"],
+                        "preservation": "txt"
+                    }
+                ],
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/platte-tekst/unicode/",
@@ -259,9 +172,13 @@
         "non-preferred-format": [
             {
                 "name": "Non-Unicode text",
-                "file-ext": "txt",
-                "dissemination": ["?"],
-                "preservation": "?",
+                "file-ext": [
+                    {
+                        "name": "txt",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
                 "info": [
                     {
                         "url": "https://dans.knaw.nl/bestandsformaten/platte-tekst/non-unicode/",
@@ -279,18 +196,79 @@
     {
         "type": [
             {
-                "title": "",
+                "title": "Opmaaktaal",
                 "lang": "nl"
             },
             {
-                "title": "",
+                "title": "Markup language",
                 "lang": "en"
             }
         ],
         "preferred-format": [
             {
-                "name": "",
-                "file-ext": "",
+                "name": "XML",
+                "file-ext": [
+                    {
+                        "name": "xml",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/opmaaktaal/xml/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/markup-language/xml/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "HTML",
+                "file-ext": [
+                    {
+                        "name": "html",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/opmaaktaal/html/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/markup-language/html/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "Related files",
+                "file-ext": [
+                    {
+                        "name": "css",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "xslt",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "js",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "es",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
                 "info": [
                     {
                         "url": "",
@@ -305,19 +283,1199 @@
         ],
         "non-preferred-format": [
             {
-                "name": "",
-                "file-ext": "",
+                "name": "SGML",
+                "file-ext": [
+                    {
+                        "name": "sgml",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
                 "info": [
                     {
-                        "url": "",
+                        "url": "https://dans.knaw.nl/bestandsformaten/opmaaktaal/sgml/",
                         "lang": "nl"
                     },
                     {
-                        "url": "",
+                        "url": "https://dans.knaw.nl/en/file-formats/markup-language/sgml/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "Markdown",
+                "file-ext": [
+                    {
+                        "name": "md",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/opmaaktaal/markdown/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/markup-language/markdown/",
                         "lang": "en"
                     }
                 ]
             }
          ]
+    },
+    {
+        "type": [
+            {
+                "title": "Programmeertaal",
+                "lang": "nl"
+            },
+            {
+                "title": "Programming languages",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "MATLAB",
+                "file-ext": [],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/programmeertaal/matlab/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/programming-languages/matlab/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "NetCDF",
+                "file-ext": [],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/programmeertaal/netcdf/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/programming-languages/netcdf/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "Text-Fabric",
+                "file-ext": [],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/programmeertaal/text-fabric/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": []
+    },
+
+    {
+        "type": [
+            {
+                "title": "Spreadsheets",
+                "lang": "nl"
+            },
+            {
+                "title": "Spreadsheets",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "ODS",
+                "file-ext": [
+                    {
+                        "name": "ods",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/spreadsheets/ods/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/spreadsheets/ods/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "CSV",
+                "file-ext": [
+                    {
+                        "name": "csv",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/databases/csv/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/databases/csv/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": [
+            {
+                "name": "Microsoft Excel",
+                "file-ext": [
+                    {
+                        "name": "xls",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/spreadsheets/microsoft-excel/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/spreadsheets/microsoft-excel/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "Office Open XML Workbook",
+                "file-ext": [
+                    {
+                        "name": "xlxs",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/spreadsheets/office-open-xml-workbook/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/spreadsheets/office-open-xml-workbook/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "PDF/A",
+                "file-ext": [
+                    {
+                        "name": "pdf",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/spreadsheets/pdf-a/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/spreadsheets/pdf-a/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": [
+            {
+                "title": "Databases",
+                "lang": "nl"
+            },
+            {
+                "title": "Databases",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "SQL",
+                "file-ext": [
+                    {
+                        "name": "sql",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/databases/sql/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/databases/sql/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "SIARD",
+                "file-ext": [
+                    {
+                        "name": "siard",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/databases/siard/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/databases/siard/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "CSV",
+                "file-ext": [
+                    {
+                        "name": "csv",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/databases/csv/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/databases/csv/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": [
+            {
+                "name": "Microsoft Access",
+                "file-ext": [
+                    {
+                        "name": "mdb",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "accdb",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/databases/microsoft-access/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/databases/microsoft-access/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "dBase",
+                "file-ext": [
+                    {
+                        "name": "dbf",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/databases/dbase/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/databases/dbase/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "HDF5",
+                "file-ext": [
+                    {
+                        "name": "hdf5",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "he5",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "h5",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/databases/hierarchical-data-format-hdf5/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/databases/hierarchical-data-format-hdf5/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "type": [
+            {
+                "title": "Statistische data",
+                "lang": "nl"
+            },
+            {
+                "title": "Statistical data",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "SPSS",
+                "file-ext": [
+                    {
+                        "name": "dat",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "sps",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/statistische-data/data-en-setup/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/statistical-data/data-and-setup/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "STATA",
+                "file-ext": [
+                    {
+                        "name": "dat",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "DO",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/statistische-data/data-en-setup/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/statistical-data/data-and-setup/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "R",
+                "file-ext": [],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/statistische-data/r/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/statistical-data/r/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": [
+            {
+                "name": "SPSS Portable",
+                "file-ext": [
+                    {
+                        "name": "por",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/statistische-data/spss-portable/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/statistical-data/spss-portable/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "SPSS",
+                "file-ext": [
+                    {
+                        "name": "sav",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/statistische-data/spss-sav/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/statistical-data/spss-sav/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "STATA",
+                "file-ext": [
+                    {
+                        "name": "dta",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/statistische-data/stata/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/statistical-data/stata/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "SAS",
+                "file-ext": [
+                    {
+                        "name": "7dat",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "sd2",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "tpt",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/statistische-data/sas/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/statistical-data/sas/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "type": [
+            {
+                "title": "Afbeeldingen (raster)",
+                "lang": "nl"
+            },
+            {
+                "title": "Raster images",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "JPEG",
+                "file-ext": [
+                    {
+                        "name": "jpg",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "jpeg",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/afbeeldingen-raster/jpeg/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-raster/jpeg/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "TIFF",
+                "file-ext": [
+                    {
+                        "name": "tif",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "tiff",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/afbeeldingen-raster/tiff/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-raster/tiff/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "PNG",
+                "file-ext": [
+                    {
+                        "name": "png",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/afbeeldingen-raster/png/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-raster/png/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "JPEG 2000",
+                "file-ext": [
+                    {
+                        "name": "jp2",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/afbeeldingen-raster/jpeg-2000/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-raster/jpeg-2000/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "DICOM",
+                "file-ext": [
+                    {
+                        "name": "dcm",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/afbeeldingen-raster/dicom/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-raster/dicom/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": []
+    },
+
+    {
+        "type": [
+            {
+                "title": "Afbeeldingen (vector)",
+                "lang": "nl"
+            },
+            {
+                "title": "Vector images ",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "SVG",
+                "file-ext": [
+                    {
+                        "name": "svg",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/afbeeldingen-vector/svg/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-vector/svg/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": [
+            {
+                "name": "Adobe Illustrator",
+                "file-ext": [
+                    {
+                        "name": "ai",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/afbeeldingen-vector/adobe-illustrator/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-vector/adobe-illustrator/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "EPS",
+                "file-ext": [
+                    {
+                        "name": "eps",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/afbeeldingen-vector/eps/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-vector/eps/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "WMF/EMF",
+                "file-ext": [
+                    {
+                        "name": "wmf",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "emf",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/afbeeldingen-vector/wmf-emf/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-vector/wmf-emf/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "CDR",
+                "file-ext": [
+                    {
+                        "name": "cdr",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/afbeeldingen-vector/cdr/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/images-vector/cdr/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "type": [
+            {
+                "title": "Audio",
+                "lang": "nl"
+            },
+            {
+                "title": "Audio",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "BWF",
+                "file-ext": [
+                    {
+                        "name": "bwf",
+                        "dissemination": ["bwf"],
+                        "preservation": "bwf"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/bwf/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/bwf/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "MXF",
+                "file-ext": [
+                    {
+                        "name": "mxf",
+                        "dissemination": ["mxf"],
+                        "preservation": "mxf"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/mxf/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/mxf/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "Matroska",
+                "file-ext": [
+                    {
+                        "name": "mka",
+                        "dissemination": ["mka"],
+                        "preservation": "mka"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/matroska/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/matroska/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "FLAC",
+                "file-ext": [
+                    {
+                        "name": "flac",
+                        "dissemination": ["flac"],
+                        "preservation": "flac"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/audio/flac/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/flac/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "OPUS",
+                "file-ext": [
+                    {
+                        "name": "opus",
+                        "dissemination": ["opus"],
+                        "preservation": "opus"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/audio/opus/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/opus/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": [
+            {
+                "name": "WAVE",
+                "file-ext": [
+                    {
+                        "name": "wav",
+                        "dissemination": ["wav", "mka"],
+                        "preservation": "mka"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/bestandsformaten/audio/wave",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/wav",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "MP3",
+                "file-ext": [
+                    {
+                        "name": "mp3",
+                        "dissemination": ["mp3", "mka"],
+                        "preservation": "mka"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/audio/mp3/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/mp3/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "AAC",
+                "file-ext": [
+                    {
+                        "name": "aac",
+                        "dissemination": ["aac", "mka"],
+                        "preservation": "mka"
+                    },
+                    {
+                        "name": "m4a",
+                        "dissemination": ["m4a", "mka"],
+                        "preservation": "mka"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/audio/aac/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/aac/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "AIFF",
+                "file-ext": [
+                    {
+                        "name": "aif",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    },
+                    {
+                        "name": "aiff",
+                        "dissemination": ["aif", "mka"],
+                        "preservation": "mka"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/audio/aiff/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/audio/aiff/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "type": [
+            {
+                "title": "Video",
+                "lang": "nl"
+            },
+            {
+                "title": "Video",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "MXF",
+                "file-ext": [
+                    {
+                        "name": "mxf",
+                        "dissemination": ["mxf"],
+                        "preservation": "mxf"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/video/mxf/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/video/mxf/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "Matroska",
+                "file-ext": [
+                    {
+                        "name": "mkv",
+                        "dissemination": ["mkv"],
+                        "preservation": "mkv"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/video/matroska/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/video/matroska/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ],
+        "non-preferred-format": [
+            {
+                "name": "MPEG-4",
+                "file-ext": [
+                    {
+                        "name": "mp4",
+                        "dissemination": ["mp4", "mkv"],
+                        "preservation": "mkv"
+                    },
+                    {
+                        "name": "m4a",
+                        "dissemination": ["m4a", "mkv"],
+                        "preservation": "mkv"
+                    },
+                    {
+                        "name": "m4v",
+                        "dissemination": ["m4v", "mkv"],
+                        "preservation": "mkv"
+                    }
+
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/video/mpeg-4/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/video/mpeg-4/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "MPEG-2",
+                "file-ext": [
+                    {
+                        "name": "mpg",
+                        "dissemination": ["mpg", "mkv"],
+                        "preservation": "mkv"
+                    },
+                    {
+                        "name": "mpeg",
+                        "dissemination": ["mpeg", "mkv"],
+                        "preservation": "mkv"
+                    },
+                    {
+                        "name": "m2v",
+                        "dissemination": ["m2v", "mkv"],
+                        "preservation": "mkv"
+                    },
+                    {
+                        "name": "mpg2",
+                        "dissemination": ["mpg2", "mkv"],
+                        "preservation": "mkv"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/video/mpeg-2/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/video/mpeg-2/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "AVI",
+                "file-ext": [
+                    {
+                        "name": "avi",
+                        "dissemination": ["avi", "mkv"],
+                        "preservation": "mkv"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/video/avi/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/video/avi/",
+                        "lang": "en"
+                    }
+                ]
+            },
+            {
+                "name": "QuickTime",
+                "file-ext": [
+                    {
+                        "name": "mov",
+                        "dissemination": ["mov", "mkv"],
+                        "preservation": "mkv"
+                    },
+                    {
+                        "name": "qt",
+                        "dissemination": ["qt", "mkv"],
+                        "preservation": "mkv"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/video/quicktime/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/video/quicktime/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "type": [
+            {
+                "title": "Computer Aided Design (CAD)",
+                "lang": "nl"
+            },
+            {
+                "title": "Computer Aided Design (CAD)",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "name": "AutoCAD DXF versie R12 (ASCII)",
+                "file-ext": [
+                    {
+                        "name": "dxf",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "url": "https://dans.knaw.nl/nl/bestandsformaten/video/quicktime/",
+                        "lang": "nl"
+                    },
+                    {
+                        "url": "https://dans.knaw.nl/en/file-formats/video/quicktime/",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
     }
 ]
