@@ -14,12 +14,16 @@
                 "title": {
                   "type": "string"
                 },
+                "url": {
+                  "type": "string"
+                },
                 "lang": {
                   "type": "string"
                 }
               },
               "required": [
                 "title",
+                "url",
                 "lang"
               ]
             }
@@ -31,22 +35,34 @@
             {
               "type": "object",
               "properties": {
-                "name": {
-                  "type": "string"
-                },
                 "file-ext": {
-                  "type": "string"
-                },
-                "dissemination": {
                   "type": "array",
                   "items": [
                     {
-                      "type": "string"
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "dissemination": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "preservation": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "dissemination",
+                        "preservation"
+                      ]
                     }
                   ]
-                },
-                "preservation": {
-                  "type": "string"
                 },
                 "info": {
                   "type": "array",
@@ -54,6 +70,9 @@
                     {
                       "type": "object",
                       "properties": {
+                        "title": {
+                          "type": "string"
+                        },
                         "url": {
                           "type": "string"
                         },
@@ -62,6 +81,7 @@
                         }
                       },
                       "required": [
+                        "title",
                         "url",
                         "lang"
                       ]
@@ -69,6 +89,9 @@
                     {
                       "type": "object",
                       "properties": {
+                        "title": {
+                          "type": "string"
+                        },
                         "url": {
                           "type": "string"
                         },
@@ -77,6 +100,7 @@
                         }
                       },
                       "required": [
+                        "title",
                         "url",
                         "lang"
                       ]
@@ -85,32 +109,41 @@
                 }
               },
               "required": [
-                "name",
                 "file-ext",
-                "dissemination",
-                "preservation",
                 "info"
               ]
             },
             {
               "type": "object",
               "properties": {
-                "name": {
-                  "type": "string"
-                },
                 "file-ext": {
-                  "type": "string"
-                },
-                "dissemination": {
                   "type": "array",
                   "items": [
                     {
-                      "type": "string"
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "dissemination": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "preservation": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "dissemination",
+                        "preservation"
+                      ]
                     }
                   ]
-                },
-                "preservation": {
-                  "type": "string"
                 },
                 "info": {
                   "type": "array",
@@ -118,6 +151,9 @@
                     {
                       "type": "object",
                       "properties": {
+                        "title": {
+                          "type": "string"
+                        },
                         "url": {
                           "type": "string"
                         },
@@ -126,6 +162,7 @@
                         }
                       },
                       "required": [
+                        "title",
                         "url",
                         "lang"
                       ]
@@ -133,6 +170,9 @@
                     {
                       "type": "object",
                       "properties": {
+                        "title": {
+                          "type": "string"
+                        },
                         "url": {
                           "type": "string"
                         },
@@ -141,6 +181,7 @@
                         }
                       },
                       "required": [
+                        "title",
                         "url",
                         "lang"
                       ]
@@ -149,10 +190,7 @@
                 }
               },
               "required": [
-                "name",
                 "file-ext",
-                "dissemination",
-                "preservation",
                 "info"
               ]
             }
@@ -164,36 +202,81 @@
             {
               "type": "object",
               "properties": {
-                "name": {
-                  "type": "string"
-                },
                 "file-ext": {
-                  "type": "string"
-                },
-                "pre-ingest": {
-                  "type": "string"
-                },
-                "dissemination": {
                   "type": "array",
                   "items": [
                     {
-                      "type": "string"
-                    },
-                    {
-                      "type": "string"
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "dissemination": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "preservation": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "dissemination",
+                        "preservation"
+                      ]
                     }
                   ]
                 },
-                "preservation": {
-                  "type": "string"
+                "info": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "lang": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "url",
+                        "lang"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "lang": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "url",
+                        "lang"
+                      ]
+                    }
+                  ]
                 }
               },
               "required": [
-                "name",
                 "file-ext",
-                "pre-ingest",
-                "dissemination",
-                "preservation",
                 "info"
               ]
             }
