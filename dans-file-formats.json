@@ -4,7 +4,7 @@
         "format": [
             {
                 "file-extension": "3gp",
-                "mime-type": "",
+                "mime-type": ["audio/3gpp"],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": ["?"],
@@ -24,7 +24,7 @@
             },
             {
                 "file-extension": "m4a",
-                "mime-type": "",
+                "mime-type": ["?"],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -47,7 +47,7 @@
             },
             {
                 "file-extension": "aac",
-                "mime-type": "",
+                "mime-type": ["audio/x-aac"],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -70,7 +70,7 @@
             },
             {
                 "file-extension": "wav",
-                "mime-type": "",
+                "mime-type": ["audio/wav","audio/x-wav"],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -93,7 +93,7 @@
             },
             {
                 "file-extension": "aiff",
-                "mime-type": "",
+                "mime-type": ["audio/aiff","audio/x-aiff"],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -116,7 +116,7 @@
             },
             {
                 "file-extension": "wma",
-                "mime-type": "",
+                "mime-type": ["audio/x-ms-wma"],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -139,7 +139,7 @@
             },
             {
                 "file-extension": "mp3",
-                "mime-type": "",
+                "mime-type": ["audio/mpeg","audio/mp3","audio/mpeg3","audio/x-mpeg-3"],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -162,9 +162,9 @@
             },
             {
                 "file-extension": "bwf",
-                "mime-type": "",
+                "mime-type": ["?"],
                 "preferred": true,
-                "required-convert-to": "",
+                "required-convert-to": "None",
                 "dissemination": ["bwf"],
                 "preservation": "bwf",
                 "description": [
@@ -182,9 +182,9 @@
             },
             {
                 "file-extension": "mka",
-                "mime-type": "",
-                "preferred": false,
-                "required-convert-to": "",
+                "mime-type": ["audio/x-matroska"],
+                "preferred": true,
+                "required-convert-to": "None",
                 "dissemination": ["mka"],
                 "preservation": "mka",
                 "description": [
@@ -202,9 +202,9 @@
             },
             {
                 "file-extension": "flac",
-                "mime-type": "",
+                "mime-type": ["audio/flac","audio/x-flac"],
                 "preferred": true,
-                "required-convert-to": "",
+                "required-convert-to": "None",
                 "dissemination": ["flac"],
                 "preservation": "flac",
                 "description": [
@@ -222,9 +222,9 @@
             },
             {
                 "file-extension": "opus",
-                "mime-type": "",
+                "mime-type":["audio/opus"],
                 "preferred": true,
-                "required-convert-to": "",
+                "required-convert-to": "None",
                 "dissemination": ["opus"],
                 "preservation": "opus",
                 "description": [
@@ -242,9 +242,9 @@
             },
             {
                 "file-extension": "mxf",
-                "mime-type": "",
+                "mime-type": ["application/mxf"],
                 "preferred": true,
-                "required-convert-to": "",
+                "required-convert-to": "None",
                 "dissemination": ["mxf"],
                 "preservation": "mxf",
                 "description": [
@@ -267,7 +267,7 @@
         "format": [
             {
                 "file-extension": "avi",
-                "mime-type": "",
+                "mime-type": ["video/x-msvideo"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -290,7 +290,7 @@
             },
             {
                 "file-extension": "vob",
-                "mime-type": "",
+                "mime-type": ["?"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": ["?"],
@@ -310,7 +310,7 @@
             },
             {
                 "file-extension": "m4v",
-                "mime-type": "",
+                "mime-type": ["video/x-m4v"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -333,7 +333,7 @@
             },
             {
                 "file-extension": "mp4",
-                "mime-type": "",
+                "mime-type": [".mp4",".mp4v",".mpg4"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -356,7 +356,7 @@
             },
             {
                 "file-extension": "mod",
-                "mime-type": "",
+                "mime-type": ["?"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": ["?"],
@@ -376,7 +376,7 @@
             },
             {
                 "file-extension": "mpg",
-                "mime-type": "",
+                "mime-type": ["video/mpeg"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -399,7 +399,7 @@
             },
             {
                 "file-extension": "mpeg",
-                "mime-type": "",
+                "mime-type": ["video/mpeg"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -422,7 +422,7 @@
             },
             {
                 "file-extension": "m2v",
-                "mime-type": "",
+                "mime-type": ["video/mpeg"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -445,7 +445,7 @@
             },
             {
                 "file-extension": "mpg2",
-                "mime-type": "",
+                "mime-type": ["?"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -468,7 +468,7 @@
             },
             {
                 "file-extension": "qt",
-                "mime-type": "",
+                "mime-type": ["video/quicktime"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -491,9 +491,9 @@
             },
             {
                 "file-extension": "mxf",
-                "mime-type": "",
+                "mime-type": ["?"],
                 "preferred": true,
-                "required-convert-to": "",
+                "required-convert-to": "None",
                 "dissemination": ["mxf"],
                 "preservation": "mxf",
                 "description": [
@@ -511,9 +511,9 @@
             },
             {
                 "file-extension": "mkv",
-                "mime-type": "",
+                "mime-type": ["video/x-matroska"],
                 "preferred": true,
-                "required-convert-to": "",
+                "required-convert-to": "None",
                 "dissemination": ["mkv"],
                 "preservation": "mkv",
                 "description": [
@@ -536,9 +536,9 @@
         "format": [
             {
                 "file-extension": "srt",
-                "mime-type": "",
+                "mime-type": ["?"],
                 "preferred": true,
-                "required-convert-to": "",
+                "required-convert-to": "None",
                 "dissemination": ["?"],
                 "preservation": "?",
                 "description": [
@@ -556,9 +556,9 @@
             },
             {
                 "file-extension": "pdf",
-                "mime-type": "",
+                "mime-type": ["application/pdf","application/x-pdf"],
                 "preferred": true,
-                "required-convert-to": "",
+                "required-convert-to": "None",
                 "dissemination": ["pdf"],
                 "preservation": "pdf",
                 "description": [
