@@ -6,7 +6,7 @@
                 "file-extension": "3gp",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mka",
+                "required-convert-to": "mka",
                 "dissemination": ["?"],
                 "preservation": "?",
                 "description": [
@@ -26,7 +26,7 @@
                 "file-extension": "m4a",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mka",
+                "required-convert-to": "mka",
                 "dissemination": [
                     "m4a",
                     "mka"
@@ -49,7 +49,7 @@
                 "file-extension": "aac",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mka",
+                "required-convert-to": "mka",
                 "dissemination": [
                     "aac",
                     "mka"
@@ -72,7 +72,7 @@
                 "file-extension": "wav",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mka",
+                "required-convert-to": "mka",
                 "dissemination": [
                     "wav",
                     "mka"
@@ -95,7 +95,7 @@
                 "file-extension": "aiff",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mka",
+                "required-convert-to": "mka",
                 "dissemination": [
                     "aiff",
                     "mka"
@@ -118,7 +118,7 @@
                 "file-extension": "wma",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mka",
+                "required-convert-to": "mka",
                 "dissemination": [
                     "wma",
                     "mka"
@@ -141,7 +141,7 @@
                 "file-extension": "mp3",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mka",
+                "required-convert-to": "mka",
                 "dissemination": [
                     "mp3",
                     "mka"
@@ -164,7 +164,7 @@
                 "file-extension": "bwf",
                 "mime-type": "",
                 "preferred": true,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["bwf"],
                 "preservation": "bwf",
                 "description": [
@@ -184,7 +184,7 @@
                 "file-extension": "mka",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["mka"],
                 "preservation": "mka",
                 "description": [
@@ -204,7 +204,7 @@
                 "file-extension": "flac",
                 "mime-type": "",
                 "preferred": true,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["flac"],
                 "preservation": "flac",
                 "description": [
@@ -224,7 +224,7 @@
                 "file-extension": "opus",
                 "mime-type": "",
                 "preferred": true,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["opus"],
                 "preservation": "opus",
                 "description": [
@@ -244,7 +244,7 @@
                 "file-extension": "mxf",
                 "mime-type": "",
                 "preferred": true,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["mxf"],
                 "preservation": "mxf",
                 "description": [
@@ -269,7 +269,7 @@
                 "file-extension": "avi",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": [
                     "avi",
                     "mkv"
@@ -292,7 +292,7 @@
                 "file-extension": "vob",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": ["?"],
                 "preservation": "?",
                 "description": [
@@ -312,7 +312,7 @@
                 "file-extension": "m4v",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": [
                     "m4v",
                     "mkv"
@@ -335,7 +335,7 @@
                 "file-extension": "mp4",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": [
                     "mp4",
                     "mkv"
@@ -358,7 +358,7 @@
                 "file-extension": "mod",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": ["?"],
                 "preservation": "?",
                 "description": [
@@ -378,7 +378,7 @@
                 "file-extension": "mpg",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": [
                     "mpg",
                     "mkv"
@@ -401,7 +401,7 @@
                 "file-extension": "mpeg",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": [
                     "mpeg",
                     "mkv"
@@ -424,7 +424,7 @@
                 "file-extension": "m2v",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": [
                     "m2v",
                     "mkv"
@@ -447,7 +447,7 @@
                 "file-extension": "mpg2",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": [
                     "mpg2",
                     "mkv"
@@ -470,7 +470,7 @@
                 "file-extension": "qt",
                 "mime-type": "",
                 "preferred": false,
-                "convert-to": "mkv",
+                "required-convert-to": "mkv",
                 "dissemination": [
                     "qt",
                     "mkv"
@@ -493,7 +493,7 @@
                 "file-extension": "mxf",
                 "mime-type": "",
                 "preferred": true,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["mxf"],
                 "preservation": "mxf",
                 "description": [
@@ -513,7 +513,7 @@
                 "file-extension": "mkv",
                 "mime-type": "",
                 "preferred": true,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["mkv"],
                 "preservation": "mkv",
                 "description": [
@@ -538,7 +538,7 @@
                 "file-extension": "srt",
                 "mime-type": "",
                 "preferred": true,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["?"],
                 "preservation": "?",
                 "description": [
@@ -558,7 +558,7 @@
                 "file-extension": "pdf",
                 "mime-type": "",
                 "preferred": true,
-                "convert-to": "",
+                "required-convert-to": "",
                 "dissemination": ["pdf"],
                 "preservation": "pdf",
                 "description": [
