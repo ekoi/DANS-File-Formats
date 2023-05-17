@@ -276,6 +276,18 @@
     },
     {
         "type": "video",
+        "description": [
+                    {
+                        "lang": "nl",
+                        "title": "Video",
+                        "desc-url": "https://dans.knaw.nl/bestandsformaten/video/"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "Video",
+                        "desc-url": "https://dans.knaw.nl/en/file-formats/video/"
+                    }
+                ],
         "format": [
             {
                 "file-extension": "avi",
