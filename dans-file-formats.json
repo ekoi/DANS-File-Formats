@@ -19,8 +19,8 @@
                 "mime-type": ["audio/3gpp"],
                 "preferred": false,
                 "required-convert-to": "mka",
-                "dissemination": ["?"],
-                "preservation": "?",
+                "dissemination": ["mka"],
+                "preservation": "mka",
                 "description": [
                     {
                         "lang": "nl",
@@ -202,13 +202,13 @@
                 "description": [
                     {
                         "lang": "nl",
-                        "title": "",
-                        "desc-url": ""
+                        "title": "Matroska",
+                        "desc-url": "https://dans.knaw.nl/bestandsformaten/audio/matroska/"
                     },
                     {
                         "lang": "en",
-                        "title": "",
-                        "desc-url": ""
+                        "title": "Matroska",
+                        "desc-url": "https://dans.knaw.nl/en/file-formats/audio/matroska/"
                     }
                 ]
             },
