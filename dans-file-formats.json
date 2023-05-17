@@ -1,6 +1,18 @@
 [
     {
         "type": "audio",
+        "description": [
+                    {
+                        "lang": "nl",
+                        "title": "Audio",
+                        "desc-url": "https://dans.knaw.nl/bestandsformaten/audio/"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "Audio",
+                        "desc-url": "https://dans.knaw.nl/en/file-formats/audio/"
+                    }
+                ],
         "format": [
             {
                 "file-extension": "3gp",
@@ -532,7 +544,19 @@
         ]
     },
     {
-        "type": "other",
+        "type": "text-document",
+        "description": [
+                    {
+                        "lang": "nl",
+                        "title": "Tekstdocumenten",
+                        "desc-url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "Text documents",
+                        "desc-url": "https://dans.knaw.nl/en/file-formats/text-documents/"
+                    }
+                ],
         "format": [
             {
                 "file-extension": "srt",
@@ -564,13 +588,13 @@
                 "description": [
                     {
                         "lang": "nl",
-                        "title": "",
-                        "desc-url": ""
+                        "title": "PDF/A",
+                        "desc-url": "https://dans.knaw.nl/nl/bestandsformaten/tekstdocumenten/pdf-a/"
                     },
                     {
                         "lang": "en",
-                        "title": "",
-                        "desc-url": ""
+                        "title": "PDF/A",
+                        "desc-url": "https://dans.knaw.nl/en/file-formats/text-documents/pdf-a/"
                     }
                 ]
             }
