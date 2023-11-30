@@ -609,6 +609,146 @@
                         "desc-url": "https://dans.knaw.nl/en/file-formats/text-documents/pdf-a/"
                     }
                 ]
+            },
+            {
+                "file-extension": "ctm",
+                "mime-type": ["application/x-ctm"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "CTM",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "CTM",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
+                "file-extension": "xml",
+                "mime-type": ["application/xml"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "XML",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "XML",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
+                "file-extension": "docx",
+                "mime-type": ["application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
+                "preferred": true,
+                "required-convert-to": "?",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "DOCX",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "DOCX",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
+                "file-extension": "zip",
+                "mime-type": ["application/zip"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "ZIP",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                       "title": "ZIP",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
+                "file-extension": "xslx",
+                "mime-type": ["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "XSLX",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "XSLX",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
+                "file-extension": "csv",
+                "mime-type": ["text/csv"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "CSV",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                       "title": "CSV",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
+                "file-extension": "txt",
+                "mime-type": ["text/plain"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "TXT",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "TXT",
+                        "desc-url": "?"
+                    }
+                ]
             }
         ]
     }
