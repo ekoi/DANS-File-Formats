@@ -670,6 +670,26 @@
                     }
                 ]
             },
+             {
+                "file-extension": "doc",
+                "mime-type": ["application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
+                "preferred": true,
+                "required-convert-to": "?",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "DOC",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "DOC",
+                        "desc-url": "?"
+                    }
+                ]
+            },
             {
                 "file-extension": "zip",
                 "mime-type": ["application/zip"],
@@ -750,6 +770,85 @@
                     }
                 ]
             }
+        ]
+    },
+    {
+        "type": "images",
+        "description": [
+                    {
+                        "lang": "nl",
+                        "title": "Images",
+                        "desc-url": "https://dans.knaw.nl/bestandsformaten/images/"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "Images",
+                        "desc-url": "https://dans.knaw.nl/en/file-formats/images/"
+                    }
+                ],
+        "format": [
+            {
+                "file-extension": "jpg",
+                "mime-type": ["img/jpg"],
+                "preferred": false,
+                "required-convert-to": "",
+                "dissemination": [""],
+                "preservation": "",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
+            },
+            {
+                "file-extension": "jpeg",
+                "mime-type": ["img/jpeg"],
+                "preferred": false,
+                "required-convert-to": "",
+                "dissemination": [""],
+                "preservation": "",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
+            },
+            {
+                "file-extension": "png",
+                "mime-type": ["img/png"],
+                "preferred": false,
+                "required-convert-to": "",
+                "dissemination": [""],
+                "preservation": "",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
+            }
+           
+            
         ]
     }
 ]
