@@ -711,7 +711,7 @@
                 ]
             },
             {
-                "file-extension": "xslx",
+                "file-extension": "xlsx",
                 "mime-type": ["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"],
                 "preferred": true,
                 "required-convert-to": "None",
@@ -830,6 +830,87 @@
             {
                 "file-extension": "png",
                 "mime-type": ["img/png"],
+                "preferred": false,
+                "required-convert-to": "",
+                "dissemination": [""],
+                "preservation": "",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
+            },
+            {
+                "file-extension": "gif",
+                "mime-type": ["img/gif"],
+                "preferred": false,
+                "required-convert-to": "",
+                "dissemination": [""],
+                "preservation": "",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
+            },
+            {
+                "file-extension": "bmp",
+                "mime-type": ["img/bmp"],
+                "preferred": false,
+                "required-convert-to": "",
+                "dissemination": [""],
+                "preservation": "",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
+            },
+            {
+                "file-extension": "tiff",
+                "mime-type": ["img/tiff"],
+                "preferred": false,
+                "required-convert-to": "",
+                "dissemination": [""],
+                "preservation": "",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
+            }
+            ,
+            {
+                "file-extension": "tif",
+                "mime-type": ["img/tif"],
                 "preferred": false,
                 "required-convert-to": "",
                 "dissemination": [""],
