@@ -2,17 +2,17 @@
     {
         "type": "audio",
         "description": [
-                    {
-                        "lang": "nl",
-                        "title": "Audio",
-                        "desc-url": "https://dans.knaw.nl/bestandsformaten/audio/"
-                    },
-                    {
-                        "lang": "en",
-                        "title": "Audio",
-                        "desc-url": "https://dans.knaw.nl/en/file-formats/audio/"
-                    }
-                ],
+            {
+                "lang": "nl",
+                "title": "Audio",
+                "desc-url": "https://dans.knaw.nl/bestandsformaten/audio/"
+            },
+            {
+                "lang": "en",
+                "title": "Audio",
+                "desc-url": "https://dans.knaw.nl/en/file-formats/audio/"
+            }
+        ],
         "format": [
             {
                 "file-extension": "3gp",
@@ -82,7 +82,10 @@
             },
             {
                 "file-extension": "wav",
-                "mime-type": ["audio/wav","audio/x-wav"],
+                "mime-type": [
+                    "audio/wav",
+                    "audio/x-wav"
+                ],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -105,7 +108,10 @@
             },
             {
                 "file-extension": "aiff",
-                "mime-type": ["audio/aiff","audio/x-aiff"],
+                "mime-type": [
+                    "audio/aiff",
+                    "audio/x-aiff"
+                ],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -151,7 +157,12 @@
             },
             {
                 "file-extension": "mp3",
-                "mime-type": ["audio/mpeg","audio/mp3","audio/mpeg3","audio/x-mpeg-3"],
+                "mime-type": [
+                    "audio/mpeg",
+                    "audio/mp3",
+                    "audio/mpeg3",
+                    "audio/x-mpeg-3"
+                ],
                 "preferred": false,
                 "required-convert-to": "mka",
                 "dissemination": [
@@ -214,7 +225,10 @@
             },
             {
                 "file-extension": "flac",
-                "mime-type": ["audio/flac","audio/x-flac"],
+                "mime-type": [
+                    "audio/flac",
+                    "audio/x-flac"
+                ],
                 "preferred": true,
                 "required-convert-to": "None",
                 "dissemination": ["flac"],
@@ -234,7 +248,7 @@
             },
             {
                 "file-extension": "opus",
-                "mime-type":["audio/opus"],
+                "mime-type": ["audio/opus"],
                 "preferred": true,
                 "required-convert-to": "None",
                 "dissemination": ["opus"],
@@ -271,27 +285,70 @@
                         "desc-url": ""
                     }
                 ]
+            },
+            {
+                "file-extension": "ogg",
+                "mime-type": ["audio/ogg"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["mxf"],
+                "preservation": "mxf",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
             }
         ]
     },
     {
         "type": "video",
         "description": [
-                    {
-                        "lang": "nl",
-                        "title": "Video",
-                        "desc-url": "https://dans.knaw.nl/bestandsformaten/video/"
-                    },
-                    {
-                        "lang": "en",
-                        "title": "Video",
-                        "desc-url": "https://dans.knaw.nl/en/file-formats/video/"
-                    }
-                ],
+            {
+                "lang": "nl",
+                "title": "Video",
+                "desc-url": "https://dans.knaw.nl/bestandsformaten/video/"
+            },
+            {
+                "lang": "en",
+                "title": "Video",
+                "desc-url": "https://dans.knaw.nl/en/file-formats/video/"
+            }
+        ],
         "format": [
             {
                 "file-extension": "avi",
                 "mime-type": ["video/x-msvideo"],
+                "preferred": false,
+                "required-convert-to": "mkv",
+                "dissemination": [
+                    "avi",
+                    "mkv"
+                ],
+                "preservation": "mkv",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
+            },
+            {
+                "file-extension": "mov",
+                "mime-type": ["video/quicktime"],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -357,7 +414,11 @@
             },
             {
                 "file-extension": "mp4",
-                "mime-type": [".mp4",".mp4v",".mpg4"],
+                "mime-type": [
+                    ".mp4",
+                    ".mp4v",
+                    ".mpg4"
+                ],
                 "preferred": false,
                 "required-convert-to": "mkv",
                 "dissemination": [
@@ -558,17 +619,17 @@
     {
         "type": "text-document",
         "description": [
-                    {
-                        "lang": "nl",
-                        "title": "Tekstdocumenten",
-                        "desc-url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/"
-                    },
-                    {
-                        "lang": "en",
-                        "title": "Text documents",
-                        "desc-url": "https://dans.knaw.nl/en/file-formats/text-documents/"
-                    }
-                ],
+            {
+                "lang": "nl",
+                "title": "Tekstdocumenten",
+                "desc-url": "https://dans.knaw.nl/bestandsformaten/tekstdocumenten/"
+            },
+            {
+                "lang": "en",
+                "title": "Text documents",
+                "desc-url": "https://dans.knaw.nl/en/file-formats/text-documents/"
+            }
+        ],
         "format": [
             {
                 "file-extension": "srt",
@@ -592,7 +653,10 @@
             },
             {
                 "file-extension": "pdf",
-                "mime-type": ["application/pdf","application/x-pdf"],
+                "mime-type": [
+                    "application/pdf",
+                    "application/x-pdf"
+                ],
                 "preferred": true,
                 "required-convert-to": "None",
                 "dissemination": ["pdf"],
@@ -651,6 +715,26 @@
                 ]
             },
             {
+                "file-extension": "json",
+                "mime-type": ["application/json"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "JSON",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "JSON",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
                 "file-extension": "docx",
                 "mime-type": ["application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
                 "preferred": true,
@@ -670,7 +754,27 @@
                     }
                 ]
             },
-             {
+            {
+                "file-extension": "ods",
+                "mime-type": ["application/vnd.oasis.opendocument.spreadsheet"],
+                "preferred": true,
+                "required-convert-to": "?",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "ODS",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "ODS",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
                 "file-extension": "doc",
                 "mime-type": ["application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
                 "preferred": true,
@@ -705,7 +809,7 @@
                     },
                     {
                         "lang": "en",
-                       "title": "ZIP",
+                        "title": "ZIP",
                         "desc-url": "?"
                     }
                 ]
@@ -745,7 +849,7 @@
                     },
                     {
                         "lang": "en",
-                       "title": "CSV",
+                        "title": "CSV",
                         "desc-url": "?"
                     }
                 ]
@@ -769,23 +873,89 @@
                         "desc-url": "?"
                     }
                 ]
+            },
+            {
+                "file-extension": "html",
+                "mime-type": ["text/html"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "HTML",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "HTML",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
+                "file-extension": "md",
+                "mime-type": ["text/markdown"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "Markdown",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "Markdown",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
+                "file-extension": "ppt",
+                "mime-type": [
+                    "application/mspowerpoint",
+                    "application/powerpoint",
+                    "application/vnd.ms-powerpoint",
+                    "application/x-mspowerpoint",
+                    "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                ],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "TXT",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "TXT",
+                        "desc-url": "?"
+                    }
+                ]
             }
         ]
     },
     {
         "type": "images",
         "description": [
-                    {
-                        "lang": "nl",
-                        "title": "Images",
-                        "desc-url": "https://dans.knaw.nl/bestandsformaten/images/"
-                    },
-                    {
-                        "lang": "en",
-                        "title": "Images",
-                        "desc-url": "https://dans.knaw.nl/en/file-formats/images/"
-                    }
-                ],
+            {
+                "lang": "nl",
+                "title": "Images",
+                "desc-url": "https://dans.knaw.nl/bestandsformaten/images/"
+            },
+            {
+                "lang": "en",
+                "title": "Images",
+                "desc-url": "https://dans.knaw.nl/en/file-formats/images/"
+            }
+        ],
         "format": [
             {
                 "file-extension": "jpg",
@@ -906,8 +1076,7 @@
                         "desc-url": ""
                     }
                 ]
-            }
-            ,
+            },
             {
                 "file-extension": "tif",
                 "mime-type": ["img/tif"],
@@ -927,9 +1096,27 @@
                         "desc-url": ""
                     }
                 ]
+            },
+            {
+                "file-extension": "svg",
+                "mime-type": ["image/svg+xml"],
+                "preferred": false,
+                "required-convert-to": "",
+                "dissemination": [""],
+                "preservation": "",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "",
+                        "desc-url": ""
+                    },
+                    {
+                        "lang": "en",
+                        "title": "",
+                        "desc-url": ""
+                    }
+                ]
             }
-           
-            
         ]
     }
 ]
