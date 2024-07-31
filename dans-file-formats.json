@@ -575,26 +575,6 @@
                 ]
             },
             {
-                "file-extension": "mxf",
-                "mime-type": ["?"],
-                "preferred": true,
-                "required-convert-to": "None",
-                "dissemination": ["mxf"],
-                "preservation": "mxf",
-                "description": [
-                    {
-                        "lang": "nl",
-                        "title": "",
-                        "desc-url": ""
-                    },
-                    {
-                        "lang": "en",
-                        "title": "",
-                        "desc-url": ""
-                    }
-                ]
-            },
-            {
                 "file-extension": "mkv",
                 "mime-type": ["video/x-matroska"],
                 "preferred": true,
