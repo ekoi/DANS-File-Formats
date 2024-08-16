@@ -919,6 +919,32 @@
                         "desc-url": "?"
                     }
                 ]
+            },
+            {
+                "file-extension": "pptx",
+                "mime-type": [
+                    "application/mspowerpoint",
+                    "application/powerpoint",
+                    "application/vnd.ms-powerpoint",
+                    "application/x-mspowerpoint",
+                    "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                ],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "TXT",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "TXT",
+                        "desc-url": "?"
+                    }
+                ]
             }
         ]
     },
