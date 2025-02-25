@@ -204,6 +204,68 @@
             }
         ]
     },
+    ,
+     {
+        "type": [
+            {
+                "title": "Video Text Tracks format",
+                "url": "",
+                "lang": "nl"
+            },
+            {
+                "title": "Video Text Tracks format",
+                "url": "",
+                "lang": "en"
+            }
+        ],
+        "preferred-format": [
+            {
+                "file-ext": [
+                    {
+                        "name": "vtt",
+                        "dissemination": ["vtt"],
+                        "preservation": "vtt"
+                    }
+                ],
+                "info": [
+                    {
+                        "title": "",
+                        "url": "",
+                        "lang": "nl"
+                    },
+                    {
+                        "title": "",
+                        "url": "",
+                        "lang": "en"
+                    }
+                ]
+            }
+            
+        ],
+        "non-preferred-format": [
+            {
+                "file-ext": [
+                    {
+                        "name": "vtt",
+                        "dissemination": ["?"],
+                        "preservation": "?"
+                    }
+                ],
+                "info": [
+                    {
+                        "title": "",
+                        "url": "",
+                        "lang": "nl"
+                    },
+                    {
+                        "title": "",
+                        "url": "",
+                        "lang": "en"
+                    }
+                ]
+            }
+        ]
+    },
     
     {
         "type": [
