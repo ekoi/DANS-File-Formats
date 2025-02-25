@@ -855,6 +855,26 @@
                 ]
             },
             {
+                "file-extension": "vtt",
+                "mime-type": ["vtt/plain"],
+                "preferred": true,
+                "required-convert-to": "None",
+                "dissemination": ["?"],
+                "preservation": "?",
+                "description": [
+                    {
+                        "lang": "nl",
+                        "title": "VTT",
+                        "desc-url": "?"
+                    },
+                    {
+                        "lang": "en",
+                        "title": "VTT",
+                        "desc-url": "?"
+                    }
+                ]
+            },
+            {
                 "file-extension": "html",
                 "mime-type": ["text/html"],
                 "preferred": true,
